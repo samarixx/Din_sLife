@@ -394,7 +394,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1061470540}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5033861650e6a4d429767f3c12c9089e, type: 3}
+  m_Script: {fileID: 11500000, guid: 1ff14f4d4a27d9342a1d722044ab4268, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SplashFade
   splashGraphic: {fileID: 2029697312}
@@ -402,7 +402,7 @@ MonoBehaviour:
   stayTime: 1
   fadeOutTime: 2
   initialScale: {x: 1, y: 1, z: 1}
-  finalScale: {x: 0.9, y: 0.9, z: 0.9}
+  finalScale: {x: 0, y: 0, z: 0}
 --- !u!4 &1061470542
 Transform:
   m_ObjectHideFlags: 0
@@ -672,7 +672,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 28849d648d068224792cfd0a3d31ca8e, type: 3}
+  m_Texture: {fileID: 2800000, guid: 34d6df11b35c9aa49a4dc9ae849cfce5, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -703,8 +703,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 942.0267, y: 942.0267}
+  m_AnchoredPosition: {x: 0.0099945, y: -21}
+  m_SizeDelta: {x: 260.2408, y: 260.2408}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2100646340
 GameObject:
